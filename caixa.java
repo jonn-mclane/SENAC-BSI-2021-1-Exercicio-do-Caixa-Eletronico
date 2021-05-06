@@ -10,30 +10,30 @@ public class caixa {
         int n100 = 0, n50 = 0, n20 = 0, n10 = 0, n5 = 0, n2 = 0, n1 = 0;
 
         System.out.println("Quanto dinheiro gostaria de gastar?");
-        int dinheiro = teclado.nextInt();
+        int din = teclado.nextInt();
 
-        while (dinheiro != 0) {
-            if (dinheiro >= 100) {
-                n100 = dinheiro / 100;
-                dinheiro = dinheiro % 100;
-            } else if (dinheiro >= 50) {
-                n50 = dinheiro / 50;
-                dinheiro = dinheiro % 50;
-            } else if (dinheiro >= 20) {
-                n20 = dinheiro / 20;
-                dinheiro = dinheiro % 20;
-            } else if (dinheiro >= 10) {
-                n10 = dinheiro / 10;
-                dinheiro = dinheiro % 10;
-            } else if (dinheiro >= 5) {
-                n5 = dinheiro / 5;
-                dinheiro = dinheiro % 5;
-            } else if (dinheiro >= 2) {
-                n2 = dinheiro / 2;
-                dinheiro = dinheiro % 2;
-            } else if (dinheiro >= 1) {
-                n1 = dinheiro / 1;
-                dinheiro = dinheiro % 1;
+        while (din != 0) {
+            if (din >= 100) {
+                n100 = din / 100;
+                din = din % 100;
+            } else if (din >= 50) {
+                n50 = din / 50;
+                din = din % 50;
+            } else if (din >= 20) {
+                n20 = din / 20;
+                din = din % 20;
+            } else if (din >= 10) {
+                n10 = din / 10;
+                din = din % 10;
+            } else if (din >= 5) {
+                n5 = din / 5;
+                din = din % 5;
+            } else if (din >= 2) {
+                n2 = din / 2;
+                din = din % 2;
+            } else if (din >= 1) {
+                n1 = din / 1;
+                din = din % 1;
             }
         }
         System.out.println(n100 + " notas de R$100.");
